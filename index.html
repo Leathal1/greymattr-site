@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>greymattr.ai – Decentralized AI Agents</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0f0f0f;
+      color: #f4f4f4;
+      line-height: 1.6;
+    }
+    header, section {
+      padding: 3rem 1rem;
+      max-width: 1024px;
+      margin: auto;
+    }
+    header { text-align: center; }
+    .tagline {
+      color: #b7ff4c;
+      font-weight: 600;
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .cta-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .cta-buttons button {
+      background: #b7ff4c;
+      color: #0f0f0f;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+    .cta-buttons button.secondary {
+      background: transparent;
+      color: #f4f4f4;
+      border: 1px solid #555;
+    }
+    .features, .how-it-works, .download, .use-cases, .developers {
+      margin-top: 4rem;
+    }
+    .features-grid, .how-grid {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+    .card {
+      background: #1b1b1b;
+      padding: 1.25rem;
+      border-radius: 10px;
+      border: 1px solid #2e2e2e;
+    }
+    ul {
+      padding-left: 1.25rem;
+    }
+    pre {
+      background: #111;
+      padding: 1rem;
+      border-radius: 8px;
+      overflow: auto;
+      font-size: 0.9rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #777;
+      font-size: 0.85rem;
+    }
+    a.download-link {
+      display: inline-block;
+      color: #b7ff4c;
+      font-weight: bold;
+      margin-top: 0.5rem;
+    }
+    img.logo {
+      height: 144px;
+      width: auto;
+      margin-bottom: 1.25rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="assets/logo2.png" alt="greymattr.ai logo" class="logo" />
+    <p class="tagline">Greymattr: Decentralized AI Agents. Private, Fast, Yours.</p>
+    <h1>AI Infrastructure for Everyone – Built for Global Scale</h1>
+    <div class="cta-buttons">
+      <button>Get Started</button>
+      <button class="secondary">How It Works</button>
+    </div>
+  </header>
+
+  <section class="how-it-works">
+    <h2>How It Works</h2>
+    <div class="how-grid">
+      <div class="card"><strong>1. Submit</strong><br>From CLI, TUI, or API</div>
+      <div class="card"><strong>2. Distribute</strong><br>Jobs routed to optimal peers across the network</div>
+      <div class="card"><strong>3. Infer</strong><br>Local inference using ONNX or compatible runtimes</div>
+      <div class="card"><strong>4. Verify</strong><br>Results logged with proof for transparency</div>
+      <div class="card"><strong>5. Reward</strong><br>Nodes earn credits and trust over time</div>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>Why Greymattr Spreads Fast</h2>
+    <div class="features-grid">
+      <div class="card"><strong>Run AI Anywhere</strong><br>Edge-ready for cities and startups everywhere</div>
+      <div class="card"><strong>Private by Design</strong><br>Trusted by developers in sensitive and regulated markets</div>
+      <div class="card"><strong>Fast & Scalable</strong><br>Built to grow via community referrals and proof-of-results</div>
+    </div>
+  </section>
+
+  <section class="download">
+    <h2>Download the greymattr Daemon</h2>
+    <p>Run a node and join the movement — empower your machine to participate in the next generation of decentralized AI. Early adopters are already earning credits worldwide.</p>
+    <a href="#" class="download-link">Download for macOS</a><br>
+    <a href="#" class="download-link">Download for Linux</a><br>
+    <a href="#" class="download-link">Download for Windows</a>
+  </section>
+
+  <section class="use-cases">
+    <h2>Use Cases</h2>
+    <ul>
+      <li>Real-time analytics in smart cities and distributed edge deployments</li>
+      <li>AI testing and model fine-tuning in co-working labs or universities</li>
+      <li>Startups launching AI features with zero infrastructure spend</li>
+      <li>Secure compute for fintech, healthtech, and logistics</li>
+    </ul>
+  </section>
+
+  <section class="developers">
+    <h2>For Developers</h2>
+    <pre>greycli submit --model stable-diffusion --prompt "a futuristic city at the edge of the world"</pre>
+    <a href="#" class="download-link">View on GitHub</a>
+    <a href="#" class="download-link">Read the Docs</a>
+  </section>
+
+  <footer>
+    &copy; 2025 greymattr.ai – Powered by community, built with Go
+  </footer>
+</body>
+</html>
